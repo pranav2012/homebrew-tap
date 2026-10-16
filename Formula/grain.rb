@@ -1,25 +1,25 @@
 class Grain < Formula
   desc "Local-first semantic code review"
   homepage "https://github.com/pranav2012/grain"
-  version "0.5.0"
+  version "0.6.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/pranav2012/grain/releases/download/v0.5.0/grain-aarch64-apple-darwin.tar.xz"
-      sha256 "3b243518b9ed242828c9f1d1b5a5d9690c4fc30b11b9ceac4950a9409d341e0d"
+      url "https://github.com/pranav2012/grain/releases/download/v0.6.0/grain-aarch64-apple-darwin.tar.xz"
+      sha256 "731f2a8f9b3d43ade642af78d35335d7e5adbc21ddb1e53b8269941810cbd1b3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/pranav2012/grain/releases/download/v0.5.0/grain-x86_64-apple-darwin.tar.xz"
-      sha256 "cf22c885d305cd1c80fa04e49b50d2d5d42653b8144f9a814cce22318a56d531"
+      url "https://github.com/pranav2012/grain/releases/download/v0.6.0/grain-x86_64-apple-darwin.tar.xz"
+      sha256 "a1ee90de48402cc450b90037dde3944f81a2f927b8a0e4d7497b8020038237e6"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/pranav2012/grain/releases/download/v0.5.0/grain-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "63eedb5c3f60739e46311a20c99bc451a9a4e7823a06428cb0fc52d75bec9495"
+      url "https://github.com/pranav2012/grain/releases/download/v0.6.0/grain-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "165cf78d116f2e0cb74b25ae2e6c244d61b9680e00a892017f178e1f23870ebd"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/pranav2012/grain/releases/download/v0.5.0/grain-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "0c05d6a2d90d7dcf09219ce1a79b7338a46c431f9d70e089a781c8f5391fe414"
+      url "https://github.com/pranav2012/grain/releases/download/v0.6.0/grain-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "74f5ffd73ba95b6aaa96492b4359a2a5ca4297e7c6d6f5ed95f3d3e9fc53d3ea"
     end
   end
   license "Apache-2.0"
